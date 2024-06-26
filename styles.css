@@ -1,0 +1,158 @@
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.img-wrapper{
+    max-width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    background-color:#ec6005; 
+    border-color: #ec6005; 
+}
+
+.btn-primary:hover {
+    background-color: #ec6005; 
+    border-color: #ec6005; 
+}
+
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.multiple-card-slider .carousel-inner {
+    padding: 1em;
+  }
+  .multiple-card-slider .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+  }
+  .multiple-card-slider .carousel-control-prev,
+  .multiple-card-slider .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .multiple-card-slider .carousel-item {
+      margin-right: 0;
+      flex: 0 0 calc(100% / 3);
+      display: block;
+      backface-visibility: visible;
+    }
+    .multiple-card-slider .carousel-inner {
+      display: flex;
+    }
+    .img-wrapper {
+        height: 23vw;
+    }
+  }
+  .search-form {
+        display: none;
+}
+
+/* Style untuk link navbar */
+.nav-link {
+  color: black;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* Hover effect untuk link navbar */
+.nav-link:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Style untuk link aktif */
+.nav-link.active {
+  font-weight: bold;
+  color: green;
+}
+.navbar-scrolled{
+  transition: all 0.5s;
+}
+.navbar-scrolled{
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.custom-more-button {
+  background-color: #ec6005;
+  border-color: #ec6005;
+}
+
+.custom-more-button:hover {
+  background-color: #d25504; /* Warna sedikit lebih gelap saat dihover */
+  border-color: #d25504;
+}
+
+
+.custom-background{
+  background-color: #ec6005;
+  color: white;
+  text-align: center;
+}
+
+.custom-background {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+.footer p {
+  margin: 0;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* CSS untuk mengubah warna teks saat tautan diklik */
+.footer-link-clicked {
+  color: #ec6005 !important; /* Ganti warna sesuai keinginan Anda */
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: inherit;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+::-webkit-scrollbar-thumb {
+  background: #ec6005; 
+  border-radius: 7px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
