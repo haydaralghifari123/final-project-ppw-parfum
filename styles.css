@@ -27,6 +27,9 @@ img{
     border-color: #ec6005; 
 }
 
+.custom-background-container .p{
+  font-size: 18;
+}
 
 .center-content {
     display: flex;
